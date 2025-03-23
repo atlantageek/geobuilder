@@ -1,0 +1,16 @@
+<!-- <div style="height: 100vh;border: 1px; width: 100%;"
+leaflet 
+[leafletOptions]="options"
+[leafletLayersControl]="layersControl"
+(leafletMouseDown)="onMouseDown($event)"
+(leafletMouseUp)="onMouseUp($event)"
+(leafletMouseMove)="onMouseMove($event)"
+> -->
+<div style="height: 100vh;border: 1px; width: 100%;" id="map"
+leaflet 
+[leafletOptions]="options"
+[leafletLayersControl]="layersControl"
+(leafletMapReady)="onMapReady($event)"
+
+>
+</div>

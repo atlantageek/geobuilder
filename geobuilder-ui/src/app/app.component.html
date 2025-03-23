@@ -2,7 +2,9 @@
 <div class="main">
 
 
-<div style="width:200px;">quest</div>
+<div style="width:200px;">
+  <button color="primary" (click)="openDialog()" [disabled]="area_selected == null">Export Selected Area</button>
+</div>
 <div style="flex-grow:1;"><app-map></app-map></div>
 </div>
 
